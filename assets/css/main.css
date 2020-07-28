@@ -3696,7 +3696,7 @@
 
 /* Banner */
 
-	#banner0 {
+	#banner .banner0 {
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
@@ -3726,7 +3726,7 @@
 	}
 /* Banner2 */
 
-#banner1 {
+#banner .banner1{
 		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
