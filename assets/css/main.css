@@ -3787,7 +3787,7 @@
 			text-decoration: none;
 		}
 
-		#banner video0 {
+		#banner video {
 			-moz-transform: translateX(50%) translateY(50%);
 			-webkit-transform: translateX(50%) translateY(50%);
 			-ms-transform: translateX(50%) translateY(50%);
@@ -3801,21 +3801,6 @@
 			min-height: 100%;
 			overflow: hidden;
 			background-video: url("../../images/banner.mp4");
-		}
-#banner video1 {
-			-moz-transform: translateX(50%) translateY(50%);
-			-webkit-transform: translateX(50%) translateY(50%);
-			-ms-transform: translateX(50%) translateY(50%);
-			transform: translateX(50%) translateY(50%);
-			position: absolute;
-			bottom: 50%;
-			right: 50%;
-			width: auto;
-			height: auto;
-			min-width: 100%;
-			min-height: 100%;
-			overflow: hidden;
-			background-video: url("../../images/tech.mp4");
 		}
 
 		#banner:before {
