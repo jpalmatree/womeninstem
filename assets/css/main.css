@@ -3700,7 +3700,7 @@
 
 /* Banner */
 
- .banner {
+ #banner .banner {
 	display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
@@ -3726,6 +3726,7 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
+	 background-image: url(".../.../images/banner.jpg");
 	}
 
 
@@ -3755,7 +3756,7 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-background-image: url(".../.../images/banner.jpg") no-repeat center left;
+background-image: url(".../.../images/banner.jpg");
 }
 
 #banner1 .banner1{
@@ -3784,7 +3785,7 @@ background-image: url(".../.../images/banner.jpg") no-repeat center left;
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-background: url(".../.../images/tech.jpg") no-repeat center left;
+		background: url(".../.../images/tech.jpg");
 }
 
 
