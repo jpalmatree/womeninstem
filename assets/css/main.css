@@ -3827,13 +3827,8 @@
 			color: rgba(255, 255, 255, 0.65);
 			font-size: 1.5rem;
 			margin-bottom: 3rem;
-			 -webkit-text-stroke: 1px black;
-   text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+			 -webkit-text-stroke: 2px black;
+	font-weight:bold;
 		}
 
 
