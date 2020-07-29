@@ -219,19 +219,13 @@
 		}
 
 	}
+
 .parallax-section {
   background-attachment: fixed !important;
   background-size: cover !important;
   overflow: hidden;
 }
 
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
 
 
 /* Grid */
@@ -3884,6 +3878,13 @@
 			width: 100%;
 			z-index: 1;
 		}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
 
 		@media screen and (max-width: 1280px) {
 
