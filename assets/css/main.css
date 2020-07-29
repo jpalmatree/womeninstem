@@ -3761,35 +3761,6 @@
 	}
 
 
-#banner1 .banner1{
-	display: -ms-flexbox;
-		-ms-flex-pack: center;
-		-ms-flex-align: center;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background: url(".../.../images/tech.jpg");
-		border-top: 0;
-		min-height: 100vh;
-		height: 100vh !important;
-		width: 100%;
-		position: relative;
-		text-align: center;
-		overflow: hidden;
-		
-}
 
 
 		#banner .inner {
@@ -3807,6 +3778,11 @@
 		}
 
 		#banner h1 {
+			font-size: 4rem;
+			margin-bottom: 1rem;
+			color: #FFF;
+		}
+	#banner0 h1 {
 			font-size: 4rem;
 			margin-bottom: 1rem;
 			color: #FFF;
