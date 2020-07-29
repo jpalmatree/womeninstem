@@ -3700,8 +3700,8 @@
 
 /* Banner */
 
- #banner .banner {
-	display: -ms-flexbox;
+ 	#banner {
+		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
 		-moz-align-items: center;
@@ -3716,6 +3716,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		background-image: url("../../images/banner.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3726,12 +3727,12 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-	 background-image: url(".../.../images/banner.jpg");
 	}
 
 
-#banner0 .banner0{
-	display: -ms-flexbox;
+
+		#banner0 {
+		display: -ms-flexbox;
 		-ms-flex-pack: center;
 		-ms-flex-align: center;
 		-moz-align-items: center;
@@ -3746,10 +3747,10 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		background-image: url("../../images/tech.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-image: url(".../.../images/banner.jpg");
 		border-top: 0;
 		min-height: 100vh;
 		height: 100vh !important;
@@ -3757,7 +3758,8 @@
 		position: relative;
 		text-align: center;
 		overflow: hidden;
-}
+	}
+
 
 #banner1 .banner1{
 	display: -ms-flexbox;
